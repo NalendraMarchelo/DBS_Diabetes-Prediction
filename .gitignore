@@ -1,0 +1,16 @@
+# .gitignore
+
+# Abaikan folder virtual environment Python
+# Tanda / di akhir berarti ini adalah sebuah folder
+venv/
+.venv/
+
+# Abaikan file kompresi/arsip
+submission.zip
+
+# Abaikan folder cache dari Jupyter Notebook
+.ipynb_checkpoints/
+
+# Abaikan file cache Python (praktik yang baik)
+__pycache__/
+*.pyc
